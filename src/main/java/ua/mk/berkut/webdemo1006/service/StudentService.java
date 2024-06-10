@@ -9,15 +9,7 @@ import java.util.List;
 @Service
 public class StudentService {
 
-    private List<Student> students = new ArrayList<>(
-//            List.of(
-//            new Student("John", 20),
-//            new Student("Jane", 21),
-//            new Student("Piter", 22),
-//            new Student("Kate", 19),
-//            new Student("Jack", 20)
-//    )
-    );
+    private List<Student> students = new ArrayList<>();
 
     public List<Student> findAll() {
         return students;
